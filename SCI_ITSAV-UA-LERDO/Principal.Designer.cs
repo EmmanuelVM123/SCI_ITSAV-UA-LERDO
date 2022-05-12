@@ -1,7 +1,7 @@
 ﻿
 namespace SCI_ITSAV_UA_LERDO
 {
-    partial class Form1
+    partial class Principal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,6 +29,7 @@ namespace SCI_ITSAV_UA_LERDO
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Principal));
             this.PanelMenuLateral = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
@@ -49,16 +50,19 @@ namespace SCI_ITSAV_UA_LERDO
             this.panelLogo = new System.Windows.Forms.Panel();
             this.panelAccion = new System.Windows.Forms.Panel();
             this.panelFomularioHijo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PanelMenuLateral.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.subMenu.SuspendLayout();
+            this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelMenuLateral
             // 
             this.PanelMenuLateral.AutoScroll = true;
-            this.PanelMenuLateral.BackColor = System.Drawing.Color.Salmon;
+            this.PanelMenuLateral.BackColor = System.Drawing.SystemColors.Control;
             this.PanelMenuLateral.Controls.Add(this.panel2);
             this.PanelMenuLateral.Controls.Add(this.button8);
             this.PanelMenuLateral.Controls.Add(this.panel1);
@@ -75,7 +79,7 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightCoral;
+            this.panel2.BackColor = System.Drawing.SystemColors.Control;
             this.panel2.Controls.Add(this.button9);
             this.panel2.Controls.Add(this.button10);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -114,6 +118,7 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // button8
             // 
+            this.button8.BackColor = System.Drawing.SystemColors.Control;
             this.button8.Dock = System.Windows.Forms.DockStyle.Top;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -124,12 +129,12 @@ namespace SCI_ITSAV_UA_LERDO
             this.button8.Size = new System.Drawing.Size(233, 45);
             this.button8.TabIndex = 5;
             this.button8.Text = "Bajas";
-            this.button8.UseVisualStyleBackColor = true;
+            this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightCoral;
+            this.panel1.BackColor = System.Drawing.SystemColors.Control;
             this.panel1.Controls.Add(this.button12);
             this.panel1.Controls.Add(this.button13);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -140,6 +145,7 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // button12
             // 
+            this.button12.BackColor = System.Drawing.SystemColors.Control;
             this.button12.Dock = System.Windows.Forms.DockStyle.Top;
             this.button12.FlatAppearance.BorderSize = 0;
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -150,10 +156,11 @@ namespace SCI_ITSAV_UA_LERDO
             this.button12.Size = new System.Drawing.Size(233, 45);
             this.button12.TabIndex = 1;
             this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.button12.UseVisualStyleBackColor = false;
             // 
             // button13
             // 
+            this.button13.BackColor = System.Drawing.SystemColors.Control;
             this.button13.Dock = System.Windows.Forms.DockStyle.Top;
             this.button13.FlatAppearance.BorderSize = 0;
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -164,7 +171,7 @@ namespace SCI_ITSAV_UA_LERDO
             this.button13.Size = new System.Drawing.Size(233, 45);
             this.button13.TabIndex = 0;
             this.button13.Text = "button13";
-            this.button13.UseVisualStyleBackColor = true;
+            this.button13.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
@@ -183,7 +190,7 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // subMenu
             // 
-            this.subMenu.BackColor = System.Drawing.Color.LightCoral;
+            this.subMenu.BackColor = System.Drawing.SystemColors.Control;
             this.subMenu.Controls.Add(this.button7);
             this.subMenu.Controls.Add(this.button6);
             this.subMenu.Controls.Add(this.button5);
@@ -299,6 +306,8 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // panelLogo
             // 
+            this.panelLogo.BackColor = System.Drawing.SystemColors.Control;
+            this.panelLogo.Controls.Add(this.pictureBox1);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
@@ -307,7 +316,7 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // panelAccion
             // 
-            this.panelAccion.BackColor = System.Drawing.Color.MistyRose;
+            this.panelAccion.BackColor = System.Drawing.SystemColors.Control;
             this.panelAccion.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelAccion.Location = new System.Drawing.Point(250, 461);
             this.panelAccion.Name = "panelAccion";
@@ -316,14 +325,25 @@ namespace SCI_ITSAV_UA_LERDO
             // 
             // panelFomularioHijo
             // 
-            this.panelFomularioHijo.BackColor = System.Drawing.Color.LightSalmon;
+            this.panelFomularioHijo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.panelFomularioHijo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelFomularioHijo.Location = new System.Drawing.Point(250, 0);
             this.panelFomularioHijo.Name = "panelFomularioHijo";
             this.panelFomularioHijo.Size = new System.Drawing.Size(684, 461);
             this.panelFomularioHijo.TabIndex = 2;
             // 
-            // Form1
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(233, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -332,12 +352,14 @@ namespace SCI_ITSAV_UA_LERDO
             this.Controls.Add(this.panelAccion);
             this.Controls.Add(this.PanelMenuLateral);
             this.MinimumSize = new System.Drawing.Size(950, 600);
-            this.Name = "Form1";
+            this.Name = "Principal";
             this.Text = "Form1";
             this.PanelMenuLateral.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.subMenu.ResumeLayout(false);
+            this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -364,6 +386,7 @@ namespace SCI_ITSAV_UA_LERDO
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panelAccion;
         private System.Windows.Forms.Panel panelFomularioHijo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
