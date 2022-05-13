@@ -82,12 +82,33 @@ namespace SCI_ITSAV_UA_LERDO
             panelFomularioHijo.Tag = formularioHijo;
             formularioHijo.BringToFront();
             formularioHijo.Show();
-          
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             AbrirFormularioHijo(new ServiciosGenerales());
+
+            OcultarSubMenus();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioHijo(new Intendencia());
+
+            OcultarSubMenus();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioHijo(new Mantenimiento());
+
+            OcultarSubMenus();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AbrirFormularioHijo(new LaboratorioDeComputo());
 
             OcultarSubMenus();
         }

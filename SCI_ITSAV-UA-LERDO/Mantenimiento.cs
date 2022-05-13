@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SCI_ITSAV_UA_LERDO
 {
-    public partial class Intendencia : Form
+    public partial class Mantenimiento : Form
     {
-        public Intendencia()
+        public Mantenimiento()
         {
             InitializeComponent();
         }

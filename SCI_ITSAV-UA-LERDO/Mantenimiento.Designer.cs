@@ -1,6 +1,6 @@
 ﻿namespace SCI_ITSAV_UA_LERDO
 {
-    partial class Intendencia
+    partial class Mantenimiento
     {
         /// <summary>
         /// Required designer variable.
@@ -93,13 +93,14 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(550, 0);
+            this.label1.Location = new System.Drawing.Point(518, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 25);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Intendencia";
+            this.label1.Size = new System.Drawing.Size(166, 25);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Mantenimiento";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
-            // Intendencia
+            // Mantenimiento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -111,8 +112,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Intendencia";
-            this.Text = "Intendencia";
+            this.Name = "Mantenimiento";
+            this.Text = "Mantenimiento";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
