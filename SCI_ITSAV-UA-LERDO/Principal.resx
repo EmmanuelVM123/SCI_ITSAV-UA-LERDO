@@ -273,6 +273,12 @@
   <data name="button4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
+  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button9.Name" xml:space="preserve">
+    <value>button9</value>
+  </data>
   <data name="btnInventarioAreas.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -281,9 +287,6 @@
   </data>
   <data name="button7.Text" xml:space="preserve">
     <value>Archivo Muerto</value>
-  </data>
-  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 45</value>
   </data>
   <data name="&gt;&gt;panelFomularioHijo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -382,6 +385,9 @@
   <data name="button13.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="&gt;&gt;button12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;button6.Name" xml:space="preserve">
     <value>button6</value>
   </data>
@@ -411,9 +417,6 @@
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 463</value>
-  </data>
-  <data name="&gt;&gt;panelAccion.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="button6.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -502,14 +505,11 @@
   <data name="button12.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
     <value>No</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 45</value>
+  <data name="&gt;&gt;panelAccion.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;button4.Name" xml:space="preserve">
     <value>button4</value>
-  </data>
-  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
   </data>
   <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -546,6 +546,9 @@
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 45</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 418</value>
   </data>
   <data name="button6.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -589,14 +592,8 @@
   <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
   </data>
-  <data name="button1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
   <data name="button5.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>subMenu</value>
   </data>
   <data name="btnInventarioAreas.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 45</value>
@@ -616,8 +613,8 @@
   <data name="&gt;&gt;button6.Parent" xml:space="preserve">
     <value>subMenu</value>
   </data>
-  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 96</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sistema de Control de Inventario</value>
   </data>
   <data name="button8.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>10, 0, 0, 0</value>
@@ -639,6 +636,9 @@
   </data>
   <data name="pictureBox7.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 32</value>
+  </data>
+  <data name="button13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -664,9 +664,6 @@
   <data name="&gt;&gt;pictureBox7.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Sistema de Control de Inventario</value>
-  </data>
   <data name="btnInventarioAreas.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 100</value>
   </data>
@@ -684,9 +681,6 @@
   </data>
   <data name="panel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
-  </data>
-  <data name="&gt;&gt;panelLogo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panelFomularioHijo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -810,8 +804,8 @@
   <data name="pictureBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 32</value>
   </data>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="button10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 45</value>
   </data>
   <data name="&gt;&gt;subMenu.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1984,8 +1978,8 @@
   <data name="&gt;&gt;panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -2026,8 +2020,11 @@
   <data name="pictureBox6.Location" type="System.Drawing.Point, System.Drawing">
     <value>193, 51</value>
   </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="button9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>35, 0, 0, 0</value>
+  </data>
+  <data name="panelLogo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>subMenu</value>
@@ -2047,8 +2044,8 @@
   <data name="button4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="button13.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 96</value>
   </data>
   <data name="&gt;&gt;panelFomularioHijo.Name" xml:space="preserve">
     <value>panelFomularioHijo</value>
@@ -2098,17 +2095,20 @@
   <data name="panelAccion.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;panelFomularioHijo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox5.Name" xml:space="preserve">
     <value>pictureBox5</value>
   </data>
+  <data name="btnInventarioAreas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;button3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 135</value>
   </data>
   <data name="button10.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2161,14 +2161,11 @@
   <data name="button8.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
-  <data name="&gt;&gt;button9.Name" xml:space="preserve">
-    <value>button9</value>
+  <data name="button7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>233, 45</value>
-  </data>
-  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="button1.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
   </data>
   <data name="button7.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
@@ -2185,8 +2182,8 @@
   <data name="&gt;&gt;button1.Name" xml:space="preserve">
     <value>button1</value>
   </data>
-  <data name="button9.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>35, 0, 0, 0</value>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="pictureBox6.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -2197,8 +2194,8 @@
   <data name="&gt;&gt;button4.Parent" xml:space="preserve">
     <value>subMenu</value>
   </data>
-  <data name="pictureBox5.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="button1.Text" xml:space="preserve">
     <value>Altas</value>
@@ -3133,14 +3130,14 @@
   <data name="PanelMenuLateral.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="btnInventarioAreas.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>subMenu</value>
   </data>
   <data name="&gt;&gt;button9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 418</value>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 45</value>
   </data>
   <data name="button13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -3157,14 +3154,17 @@
   <data name="button6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="&gt;&gt;pictureBox6.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 45</value>
   </data>
   <data name="&gt;&gt;btnInventarioAreas.Parent" xml:space="preserve">
     <value>PanelMenuLateral</value>
+  </data>
+  <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 45</value>
   </data>
   <data name="&gt;&gt;panelFomularioHijo.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -3181,8 +3181,8 @@
   <data name="&gt;&gt;button4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pictureBox8.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 135</value>
   </data>
   <data name="&gt;&gt;PanelMenuLateral.Name" xml:space="preserve">
     <value>PanelMenuLateral</value>
@@ -3193,8 +3193,8 @@
   <data name="button3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="button7.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;panelLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -3202,8 +3202,8 @@
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>233, 100</value>
   </data>
-  <data name="panelLogo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;pictureBox7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox3.ZOrder" xml:space="preserve">
     <value>4</value>

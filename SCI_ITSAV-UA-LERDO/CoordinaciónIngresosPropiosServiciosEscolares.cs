@@ -21,5 +21,12 @@ namespace SCI_ITSAV_UA_LERDO
         {
             this.Close();
         }
+
+        private void CoordinaciónIngresosPropiosServiciosEscolares_Load(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'sCIDataSet.Articulos' Puede moverla o quitarla según sea necesario.
+            this.articulosTableAdapter.Fill(this.sCIDataSet.Articulos);
+
+        }
     }
 }

@@ -298,6 +298,7 @@ namespace SCI_ITSAV_UA_LERDO
             this.Controls.Add(this.panelFomularioHijo);
             this.Controls.Add(this.panelAccion);
             this.Controls.Add(this.PanelMenuLateral);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.HelpButton = true;
             this.Name = "Principal";
             this.PanelMenuLateral.ResumeLayout(false);

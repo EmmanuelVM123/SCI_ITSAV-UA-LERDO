@@ -140,6 +140,9 @@
         jd2sAAAAAElFTkSuQmCC
 </value>
   </data>
+  <data name="PanelMenuLateral.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 600</value>
+  </data>
   <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -280,7 +283,7 @@
   <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAB6dJREFUeF7tnWmoVVUYhm+FNlgZNKvVjzKzCUoKjaykEi0sKpMGoiirHxEUUVlS
+        vwAADr8BOAVTJAAAB6dJREFUeF7tnWmoVVUYhm+FNlgZNKvVjzKzCUoKjaykEi0sKpMGoiirHxEUUVlS
         EGFWQvQjlDICG8y0gWjApCRLmiOzwYjKUEMq0spotOF5fxzYXb6z99rnnnv3Xnt9Dzy/vPe413fec+7a
         a6+hpwK2x1NxNr6IX+Bm3Ir/JuI/uAU34Aqch+fhHthYDsG5uAmtorg9PX/iczgZG8NwfAxT+oR3w/dx
         PEbNdPwJrQa6xepPxf24I0bFYFyAVqPc8n6IIzAKhuAytBridu46HIm1ZhCqZ281IOvf+DrOxEk4Cofh
@@ -319,7 +322,7 @@
   <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAABcZJREFUeF7tnU+KXFUUhxsxGYgBcQ9OTBag0+xAnCtOM4huQ5EkmMxE1AW4g6xC
+        wAAADsABataJCQAABcZJREFUeF7tnU+KXFUUhxsxGYgBcQ9OTBag0+xAnCtOM4huQ5EkmMxE1AW4g6xC
         HbgDJyJEHAQN6PkV2hwrX3dX17m33nm+3wcfhFPd97z7u1XvT15e6swYY4wxZhB3wofhj+Gz8C+7qL+F
         WotHodZmGjfDJ+GLkDbELq/WRmuktRrKjfBpSE1tP7VWWrNhPA6pke2r1mwIOq54t78+tWZDzgl0wkcN
         bH+1dmV0hkmD2/5q7cr4Um+96hKxDA18md+HH4dvh7dCU+P1UFneD5UtZX6ZZWhQ8nl4L3wlNHNQtspY
@@ -350,7 +353,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAU
-        wAAAFMABuMlsLwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAASzSURBVGhD7ZlJ
+        vwAAFL8B6hq2AgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAASzSURBVGhD7ZlJ
         yH1jHMf/mUXKPA+RWJBpa57neQzJwkoWsrAhFooNJVYWUpKUQsYsrCgszPNcZChK5pnPh/t9+/V0zrnn
         3vfejd5vffq/9znP8H2e8zvP9F+3pjWtaVA3wnWw0b+/FqsN4EC4YsIBk7SF6Wb4e8J7cCIsQpfAc/AT
         pP5g2rNwPWwPc6uarzwMe8A80pDlu+rt4m3YDGaWYVMr+q357SjdAJvAWB0PX0Otx3pfgrvgtUlaeAd2
@@ -1200,6 +1203,18 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID8
         xHXX/T/JsriURK8x1gAAAABJRU5ErkJggg==
 </value>
+  </data>
+  <data name="panelAccion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 500</value>
+  </data>
+  <data name="panelAccion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 100</value>
+  </data>
+  <data name="panelFomularioHijo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 500</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>950, 600</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2334,9 +2349,6 @@
 </value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

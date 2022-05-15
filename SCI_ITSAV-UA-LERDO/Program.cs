@@ -16,7 +16,7 @@ namespace SCI_ITSAV_UA_LERDO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Principal());
+            Application.Run(new Iniciar_Sesion());
         }
     }
 }

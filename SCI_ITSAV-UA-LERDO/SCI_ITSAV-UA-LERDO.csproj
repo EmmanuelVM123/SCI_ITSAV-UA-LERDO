@@ -74,6 +74,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Iniciar Sesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Iniciar Sesion.Designer.cs">
+      <DependentUpon>Iniciar Sesion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Intendencia.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,11 @@
     <Compile Include="CoordinaciónIngresosPropiosServiciosEscolares.Designer.cs">
       <DependentUpon>CoordinaciónIngresosPropiosServiciosEscolares.cs</DependentUpon>
     </Compile>
+    <Compile Include="SCIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCIDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ServiciosGenerales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +123,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Iniciar Sesion.resx">
+      <DependentUpon>Iniciar Sesion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Intendencia.resx">
       <DependentUpon>Intendencia.cs</DependentUpon>
     </EmbeddedResource>
@@ -151,6 +165,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SCIDataSet.xsc">
+      <DependentUpon>SCIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SCIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SCIDataSet.xss">
+      <DependentUpon>SCIDataSet.xsd</DependentUpon>
+    </None>
     <None Include="SCI_ITSAV-UA-LERDO_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
